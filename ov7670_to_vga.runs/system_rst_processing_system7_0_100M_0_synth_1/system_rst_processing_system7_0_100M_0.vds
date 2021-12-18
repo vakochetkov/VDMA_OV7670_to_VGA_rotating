@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec  4 23:56:24 2021
+# Process ID: 7984
+# Current directory: C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_rst_processing_system7_0_100M_0_synth_1
+# Command line: vivado.exe -log system_rst_processing_system7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_rst_processing_system7_0_100M_0.tcl
+# Log file: C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_rst_processing_system7_0_100M_0_synth_1/system_rst_processing_system7_0_100M_0.vds
+# Journal file: C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_rst_processing_system7_0_100M_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_rst_processing_system7_0_100M_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_controller'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_debounce'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_decode_stream'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/stream_to_vga'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_controller' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_controller'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_debounce' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_debounce'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_decode_stream' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/ov7670_decode_stream'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/stream_to_vga' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ip_repo/stream_to_vga'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_rst_processing_system7_0_100M_0, cache-ID = 78becdf9a5ea1461.
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  4 23:56:27 2021...

@@ -1,0 +1,74 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1750 -y 20 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1750 -y 50 -defaultsOSRD
+preplace port IIC_0 -pg 1 -lvl 4 -x 1750 -y 80 -defaultsOSRD
+preplace port ov7670_href -pg 1 -lvl 0 -x -110 -y 50 -defaultsOSRD
+preplace port ov7670_pclk -pg 1 -lvl 0 -x -110 -y 80 -defaultsOSRD
+preplace port ov7670_vsync -pg 1 -lvl 0 -x -110 -y 110 -defaultsOSRD
+preplace port ov7670_xclk -pg 1 -lvl 4 -x 1750 -y 170 -defaultsOSRD
+preplace port vga_hsync -pg 1 -lvl 4 -x 1750 -y 260 -defaultsOSRD
+preplace port vga_vsync -pg 1 -lvl 4 -x 1750 -y 320 -defaultsOSRD
+preplace portBus ov7670_data -pg 1 -lvl 0 -x -110 -y 20 -defaultsOSRD
+preplace portBus ov7670_pwdn -pg 1 -lvl 4 -x 1750 -y 110 -defaultsOSRD
+preplace portBus ov7670_reset -pg 1 -lvl 4 -x 1750 -y 140 -defaultsOSRD
+preplace portBus vga_b -pg 1 -lvl 4 -x 1750 -y 200 -defaultsOSRD
+preplace portBus vga_g -pg 1 -lvl 4 -x 1750 -y 230 -defaultsOSRD
+preplace portBus vga_r -pg 1 -lvl 4 -x 1750 -y 290 -defaultsOSRD
+preplace inst axi_periph -pg 1 -lvl 3 -x 1310 -y 160 -defaultsOSRD
+preplace inst fifo_mm2s -pg 1 -lvl 3 -x 1310 -y 390 -defaultsOSRD
+preplace inst fifo_s2mm -pg 1 -lvl 3 -x 1310 -y 550 -defaultsOSRD
+preplace inst ov7670_decode_stream_0 -pg 1 -lvl 3 -x 1310 -y 740 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 1310 -y 1010 -defaultsOSRD
+preplace inst pwdn -pg 1 -lvl 2 -x 680 -y 60 -defaultsOSRD
+preplace inst reset -pg 1 -lvl 2 -x 680 -y 520 -defaultsOSRD
+preplace inst rst_ov7670_pclk -pg 1 -lvl 2 -x 680 -y 200 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 2 -x 680 -y 380 -defaultsOSRD
+preplace inst rst_vga_clk25 -pg 1 -lvl 2 -x 680 -y 660 -defaultsOSRD
+preplace inst stream_to_vga_0 -pg 1 -lvl 2 -x 680 -y 870 -defaultsOSRD
+preplace inst vdma_mm2s -pg 1 -lvl 2 -x 680 -y 1100 -defaultsOSRD
+preplace inst vdma_mm2s_intercon -pg 1 -lvl 1 -x 200 -y 120 -defaultsOSRD
+preplace inst vdma_s2mm -pg 1 -lvl 1 -x 200 -y 340 -defaultsOSRD
+preplace inst vdma_s2mm_intercon -pg 1 -lvl 1 -x 200 -y 580 -defaultsOSRD
+preplace netloc M01_ARESETN_1 1 2 1 960 220n
+preplace netloc d_1 1 0 3 -60J 1350 NJ 1350 1040
+preplace netloc href_1 1 0 3 -80J 1370 NJ 1370 1050
+preplace netloc microblaze_0_Clk 1 0 4 -20 700 420 1330 970 1330 1600
+preplace netloc pclk_1 1 0 3 -70 710 410 1310 900
+preplace netloc processing_system7_0_FCLK_CLK1 1 3 1 1660 170n
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 3 440 1360 1020 1320 1550
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 3 430 1340 NJ 1340 1570
+preplace netloc pwdn_dout 1 2 2 1030J 1240 1670
+preplace netloc reset_dout 1 2 2 990J 1290 1690
+preplace netloc rst_ov7670_pclk1_peripheral_aresetn 1 1 2 450 1320 880
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 0 3 -50 1380 NJ 1380 950
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 0 3 -10 1120 400 1290 920
+preplace netloc stream_to_vga_0_blue 1 2 2 910 1310 1720J
+preplace netloc stream_to_vga_0_fsync 1 1 2 480 1300 870
+preplace netloc stream_to_vga_0_green 1 2 2 980 1210 1680J
+preplace netloc stream_to_vga_0_hsync 1 2 2 940 1300 1730J
+preplace netloc stream_to_vga_0_red 1 2 2 960 1230 1700J
+preplace netloc stream_to_vga_0_vsync 1 2 2 1010 1220 1710J
+preplace netloc vsync_1 1 0 3 -90J 1390 NJ 1390 1060
+preplace netloc axi_vdma_1_M_AXI_MM2S 1 0 3 -40 1240 NJ 1240 860
+preplace netloc axi_vdma_1_M_AXIS_MM2S 1 2 1 930 360n
+preplace netloc ov7670_decode_stream_0_axis_out 1 2 2 1080 1190 1540
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 2 2 1090 1180 1560
+preplace netloc axi_mem_intercon_M00_AXI 1 1 2 380J 1220 1000
+preplace netloc fifo_generator_0_M_AXIS 1 0 4 0 1260 NJ 1260 NJ 1260 1580
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 0 4 -30 1270 NJ 1270 NJ 1270 1620
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 0 2 10 460 380
+preplace netloc fifo_mm2s_M_AXIS 1 1 3 460 1250 NJ 1250 1590
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 1 3 470 1280 NJ 1280 1610
+preplace netloc axi_mem_intercon_M00_AXI1 1 1 2 390J 1230 890
+preplace netloc processing_system7_0_DDR 1 3 1 1630 20n
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 1640 50n
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 1070 1200 1530
+preplace netloc processing_system7_0_IIC_0 1 3 1 1650 80n
+levelinfo -pg 1 -110 200 680 1310 1750
+pagesize -pg 1 -db -bbox -sgen -270 0 1920 1400
+"
+}
+0

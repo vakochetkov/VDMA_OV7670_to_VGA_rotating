@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_auto_pc_1_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_pc_2_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rst_vga_clk25_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_rst_vga_clk25_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_xbar_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_cc_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_auto_cc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_stream_to_vga_0_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_stream_to_vga_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_vdma_mm2s_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_vdma_mm2s_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_vdma_s2mm_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_vdma_s2mm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_pc_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rst_ov7670_pclk_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_rst_ov7670_pclk_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rst_processing_system7_0_100M_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_rst_processing_system7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="system_rst_ov7670_pclk_0_synth_1"/>
+	</Run>
+	<Run Id="system_fifo_mm2s_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_fifo_mm2s_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_ov7670_decode_stream_0_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_ov7670_decode_stream_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_processing_system7_0_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_fifo_s2mm_0_synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/system_fifo_s2mm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_auto_pc_1_synth_1"/>
+		<Parent Id="system_auto_pc_2_synth_1"/>
+		<Parent Id="system_rst_vga_clk25_0_synth_1"/>
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_auto_cc_0_synth_1"/>
+		<Parent Id="system_stream_to_vga_0_0_synth_1"/>
+		<Parent Id="system_vdma_mm2s_0_synth_1"/>
+		<Parent Id="system_vdma_s2mm_0_synth_1"/>
+		<Parent Id="system_auto_pc_0_synth_1"/>
+		<Parent Id="system_rst_ov7670_pclk_0_synth_1"/>
+		<Parent Id="system_rst_processing_system7_0_100M_0_synth_1"/>
+		<Parent Id="system_fifo_mm2s_0_synth_1"/>
+		<Parent Id="system_ov7670_decode_stream_0_0_synth_1"/>
+		<Parent Id="system_processing_system7_0_0_synth_1"/>
+		<Parent Id="system_fifo_s2mm_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/Sergei/Desktop/nast/camera/new_cam/ov7670_VDMA_VGA/ov7670_to_vga/ov7670_to_vga.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="system_auto_pc_1_synth_1"/>
+		<Parent Id="system_auto_pc_2_synth_1"/>
+		<Parent Id="system_rst_vga_clk25_0_synth_1"/>
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_auto_cc_0_synth_1"/>
+		<Parent Id="system_stream_to_vga_0_0_synth_1"/>
+		<Parent Id="system_vdma_mm2s_0_synth_1"/>
+		<Parent Id="system_vdma_s2mm_0_synth_1"/>
+		<Parent Id="system_auto_pc_0_synth_1"/>
+		<Parent Id="system_rst_ov7670_pclk_0_synth_1"/>
+		<Parent Id="system_rst_processing_system7_0_100M_0_synth_1"/>
+		<Parent Id="system_fifo_mm2s_0_synth_1"/>
+		<Parent Id="system_ov7670_decode_stream_0_0_synth_1"/>
+		<Parent Id="system_processing_system7_0_0_synth_1"/>
+		<Parent Id="system_fifo_s2mm_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
